@@ -8,8 +8,9 @@ namespace DinerMax3000.Business
 {
     public class MenuItem
     {
-        public string Title;
-        public string Description;
-        public double Price;
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public double Price { get; set; }
+
     }
 }
