@@ -9,6 +9,51 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinerMax3000BusinessLayer",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DinerMax3000WPFClient", "DinerMax3000WPFClient\DinerMax3000WPFClient.csproj", "{286A9116-DCEF-4869-8E74-D957FBAB834F}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DinerMax3000Web", "http://localhost:2779", "{B23B9064-D486-4880-951A-8D32A8429DA1}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{f58f99e4-375e-4b11-8c01-e48a8f64ed25}|DinerMax3000BusinessLayer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2779"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\DinerMax3000Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2779\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2779"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\DinerMax3000Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2779\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\DinerMax3000Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "HelloAngular", "http://localhost:4346", "{E6E4BC35-E345-411C-A9D0-4C52CFEC57C4}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_4346"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\HelloAngular\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4346\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_4346"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\HelloAngular\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_4346\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\HelloAngular\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +72,14 @@ Global
 		{286A9116-DCEF-4869-8E74-D957FBAB834F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{286A9116-DCEF-4869-8E74-D957FBAB834F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{286A9116-DCEF-4869-8E74-D957FBAB834F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B23B9064-D486-4880-951A-8D32A8429DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23B9064-D486-4880-951A-8D32A8429DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B23B9064-D486-4880-951A-8D32A8429DA1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B23B9064-D486-4880-951A-8D32A8429DA1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E6E4BC35-E345-411C-A9D0-4C52CFEC57C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E4BC35-E345-411C-A9D0-4C52CFEC57C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E4BC35-E345-411C-A9D0-4C52CFEC57C4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E4BC35-E345-411C-A9D0-4C52CFEC57C4}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
